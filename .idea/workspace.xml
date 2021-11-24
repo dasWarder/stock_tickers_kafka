@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1507c062-4f54-4644-b474-d48032d16500" name="Default Changelist" comment="" />
+    <list default="true" id="1507c062-4f54-4644-b474-d48032d16500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/StockProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/StockProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/model/StockTickerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/model/StockTickerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/producer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/producer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/service/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/service/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/service/KafkaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/service/KafkaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/util/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/StockProducer/src/main/java/com/example/stockproducer/util/ConsoleReader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +27,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/StockProducer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/StreamNode">
       <ProjectState />
     </projectState>
   </component>
@@ -38,7 +53,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="21K2S96FwIwdd1kW2S5oFxNp6oD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +69,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -59,14 +79,29 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.StockProducerApplication">
+    <configuration name="StockProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.stockproducer.StockProducerApplication" />
+      <module name="StockProducer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.stockproducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +113,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamNodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StreamNode.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamnode.StreamNodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StockProducerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,11 +134,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637675460356</updated>
-      <workItem from="1637675461659" duration="3538000" />
+      <workItem from="1637675461659" duration="3854000" />
+      <workItem from="1637733922058" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

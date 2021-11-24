@@ -1,0 +1,7 @@
+server:
+  port: 2223
+
+kafka:
+  bootstrap-server: 127.0.0.1:9092
+  topics:
+    main: stockTickers

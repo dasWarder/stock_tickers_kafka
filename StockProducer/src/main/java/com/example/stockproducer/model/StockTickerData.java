@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class StockTickerData {
 
-    private String companyKey;
+  private String companyKey;
 
-    private Double price;
+  private Double price;
 }

@@ -4,5 +4,5 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 public interface KafkaService {
 
-    void produce(String serializeObject) throws JsonProcessingException;
+  void produce(String serializeObject) throws JsonProcessingException;
 }
